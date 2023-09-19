@@ -1,16 +1,13 @@
 package handler
 
 import (
+	"filestore-server/config"
 	"filestore-server/db"
 	"filestore-server/util"
 	"fmt"
 	"github.com/gin-gonic/gin"
 	"net/http"
 	"time"
-)
-
-const (
-	pwd_salt = "#123" // 用于加密的盐值(自定义)
 )
 
 // SignupHandler : 处理用户注册请求
@@ -32,7 +29,7 @@ func DoSignupHandler(c *gin.Context) {
 	}
 
 	// 对密码进行加盐及取Sha1值加密
-	encPasswd := util.Sha1([]byte(passwd + pwd_salt))
+	encPasswd := util.Sha1([]byte(passwd + config.PasswdSalt))
 	// 将用户信息注册到用户表中
 	suc := db.UserSignup(username, encPasswd)
 	if suc {
@@ -63,7 +60,7 @@ func DoSignInHandler(c *gin.Context) {
 	username := c.Request.FormValue("username")
 	password := c.Request.FormValue("password")
 
-	encPasswd := util.Sha1([]byte(password + pwd_salt))
+	encPasswd := util.Sha1([]byte(password + config.PasswdSalt))
 
 	// 1. 校验用户名及密码
 	pwdChecked := db.UserSignin(username, encPasswd)
