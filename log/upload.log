@@ -1,0 +1,204 @@
+panic: qtls.ConnectionState not compatible with tls.ConnectionState
+
+goroutine 1 [running]:
+github.com/lucas-clemente/quic-go/internal/handshake.init.1()
+	/home/blover/go/pkg/mod/github.com/lucas-clemente/quic-go@v0.13.1/internal/handshake/unsafe.go:17 +0xc5
+panic: qtls.ConnectionState not compatible with tls.ConnectionState
+
+goroutine 1 [running]:
+github.com/lucas-clemente/quic-go/internal/handshake.init.1()
+	/home/blover/go/pkg/mod/github.com/lucas-clemente/quic-go@v0.13.1/internal/handshake/unsafe.go:17 +0xc5
+panic: qtls.ConnectionState not compatible with tls.ConnectionState
+
+goroutine 1 [running]:
+github.com/lucas-clemente/quic-go/internal/handshake.init.1()
+	/home/blover/go/pkg/mod/github.com/lucas-clemente/quic-go@v0.13.1/internal/handshake/unsafe.go:17 +0xc5
+panic: qtls.ConnectionState not compatible with tls.ConnectionState
+
+goroutine 1 [running]:
+github.com/lucas-clemente/quic-go/internal/handshake.init.1()
+	/home/blover/go/pkg/mod/github.com/lucas-clemente/quic-go@v0.13.1/internal/handshake/unsafe.go:17 +0xc5
+panic: qtls.ConnectionState not compatible with tls.ConnectionState
+
+goroutine 1 [running]:
+github.com/lucas-clemente/quic-go/internal/handshake.init.1()
+	/home/blover/go/pkg/mod/github.com/lucas-clemente/quic-go@v0.13.1/internal/handshake/unsafe.go:17 +0xc5
+panic: qtls.ConnectionState not compatible with tls.ConnectionState
+
+goroutine 1 [running]:
+github.com/lucas-clemente/quic-go/internal/handshake.init.1()
+	/home/blover/go/pkg/mod/github.com/lucas-clemente/quic-go@v0.13.1/internal/handshake/unsafe.go:17 +0xc5
+panic: qtls.ConnectionState not compatible with tls.ConnectionState
+
+goroutine 1 [running]:
+github.com/lucas-clemente/quic-go/internal/handshake.init.1()
+	/home/blover/go/pkg/mod/github.com/lucas-clemente/quic-go@v0.13.1/internal/handshake/unsafe.go:17 +0xc5
+panic: qtls.ConnectionState not compatible with tls.ConnectionState
+
+goroutine 1 [running]:
+github.com/lucas-clemente/quic-go/internal/handshake.init.1()
+	/home/blover/go/pkg/mod/github.com/lucas-clemente/quic-go@v0.13.1/internal/handshake/unsafe.go:17 +0xc5
+panic: qtls.ConnectionState not compatible with tls.ConnectionState
+
+goroutine 1 [running]:
+github.com/lucas-clemente/quic-go/internal/handshake.init.1()
+	/home/blover/go/pkg/mod/github.com/lucas-clemente/quic-go@v0.13.1/internal/handshake/unsafe.go:17 +0xc5
+panic: qtls.ConnectionState not compatible with tls.ConnectionState
+
+goroutine 1 [running]:
+github.com/lucas-clemente/quic-go/internal/handshake.init.1()
+	/home/blover/go/pkg/mod/github.com/lucas-clemente/quic-go@v0.13.1/internal/handshake/unsafe.go:17 +0xc5
+panic: qtls.ConnectionState not compatible with tls.ConnectionState
+
+goroutine 1 [running]:
+github.com/lucas-clemente/quic-go/internal/handshake.init.1()
+	/home/blover/go/pkg/mod/github.com/lucas-clemente/quic-go@v0.13.1/internal/handshake/unsafe.go:17 +0xc5
+dial tcp 127.0.0.1:6379: connect: connection refused
+dial tcp 127.0.0.1:6379: connect: connection refused
+<nil>
+Failed to connect to mysql, err:dial tcp 127.0.0.1:3306: connect: connection refused
+dial tcp 127.0.0.1:6379: connect: connection refused
+dial tcp 127.0.0.1:6379: connect: connection refused
+<nil>
+Registry consul not found
+dial tcp 127.0.0.1:6379: connect: connection refused
+dial tcp 127.0.0.1:6379: connect: connection refused
+<nil>
+Registry consul not found
+dial tcp 127.0.0.1:6379: connect: connection refused
+dial tcp 127.0.0.1:6379: connect: connection refused
+<nil>
+Registry consul not found
+dial tcp 127.0.0.1:6379: connect: connection refused
+dial tcp 127.0.0.1:6379: connect: connection refused
+<nil>
+Registry consul not found
+dial tcp 127.0.0.1:6379: connect: connection refused
+dial tcp 127.0.0.1:6379: connect: connection refused
+<nil>
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] POST   /file/upload              --> filestore-server/service/upload/api.DoUploadHandler (4 handlers)
+[GIN-debug] POST   /file/fastupload          --> filestore-server/service/upload/api.TryFastUploadHandler (4 handlers)
+[GIN-debug] POST   /file/mpupload/init       --> filestore-server/service/upload/api.InitialMultipartUploadHandler (4 handlers)
+[GIN-debug] POST   /file/mpupload/uppart     --> filestore-server/service/upload/api.UploadPartHandler (4 handlers)
+[GIN-debug] POST   /file/mpupload/complete   --> filestore-server/service/upload/api.CompleteUploadHandler (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on 0.0.0.0:28080
+2023-09-19 23:49:34  file=upload/main.go:26 level=info Starting [service] go.micro.service.upload
+2023-09-19 23:49:34  file=v4@v4.10.2/service.go:99 level=info Transport [http] Listening on [::]:44213
+2023-09-19 23:49:34  file=v4@v4.10.2/service.go:99 level=info Broker [http] Connected to 127.0.0.1:33369
+2023-09-19 23:49:34  file=server/rpc_server.go:556 level=info Registry [consul] Registering node: go.micro.service.upload-1b05a5a0-7eea-4291-a7e1-9413b7f35d20
+2023-09-19 23:50:35  file=server/rpc_server.go:787 level=info Registry [consul] Deregistering node: go.micro.service.upload-1b05a5a0-7eea-4291-a7e1-9413b7f35d20
+2023-09-19 23:50:35  file=runtime/asm_amd64.s:1598 level=info Broker [http] Disconnected from 127.0.0.1:33369
+dial tcp 127.0.0.1:6379: connect: connection refused
+dial tcp 127.0.0.1:6379: connect: connection refused
+<nil>
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+2023-09-19 23:50:44  file=upload/main.go:26 level=info Starting [service] go.micro.service.upload
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] POST   /file/upload              --> filestore-server/service/upload/api.DoUploadHandler (4 handlers)
+[GIN-debug] POST   /file/fastupload          --> filestore-server/service/upload/api.TryFastUploadHandler (4 handlers)
+[GIN-debug] POST   /file/mpupload/init       --> filestore-server/service/upload/api.InitialMultipartUploadHandler (4 handlers)
+[GIN-debug] POST   /file/mpupload/uppart     --> filestore-server/service/upload/api.UploadPartHandler (4 handlers)
+[GIN-debug] POST   /file/mpupload/complete   --> filestore-server/service/upload/api.CompleteUploadHandler (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on 0.0.0.0:28080
+2023-09-19 23:50:44  file=v4@v4.10.2/service.go:99 level=info Transport [http] Listening on [::]:46013
+2023-09-19 23:50:44  file=v4@v4.10.2/service.go:99 level=info Broker [http] Connected to 127.0.0.1:35731
+2023-09-19 23:50:44  file=server/rpc_server.go:556 level=info Registry [consul] Registering node: go.micro.service.upload-51391139-7e02-45b0-bc5e-e9c25471fa68
+2023-09-20 00:10:42  file=server/rpc_server.go:787 level=info Registry [consul] Deregistering node: go.micro.service.upload-51391139-7e02-45b0-bc5e-e9c25471fa68
+2023-09-20 00:10:42  file=runtime/asm_amd64.s:1598 level=info Broker [http] Disconnected from 127.0.0.1:35731
+dial tcp 127.0.0.1:6379: connect: connection refused
+dial tcp 127.0.0.1:6379: connect: connection refused
+<nil>
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] POST   /file/upload              --> filestore-server/service/upload/api.DoUploadHandler (4 handlers)
+[GIN-debug] POST   /file/fastupload          --> filestore-server/service/upload/api.TryFastUploadHandler (4 handlers)
+[GIN-debug] POST   /file/mpupload/init       --> filestore-server/service/upload/api.InitialMultipartUploadHandler (4 handlers)
+[GIN-debug] POST   /file/mpupload/uppart     --> filestore-server/service/upload/api.UploadPartHandler (4 handlers)
+[GIN-debug] POST   /file/mpupload/complete   --> filestore-server/service/upload/api.CompleteUploadHandler (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on 0.0.0.0:28080
+2023-09-20 00:10:49  file=upload/main.go:26 level=info Starting [service] go.micro.service.upload
+2023-09-20 00:10:49  file=v4@v4.10.2/service.go:99 level=info Transport [http] Listening on [::]:36981
+2023-09-20 00:10:49  file=v4@v4.10.2/service.go:99 level=info Broker [http] Connected to 127.0.0.1:40421
+2023-09-20 00:10:49  file=server/rpc_server.go:556 level=info Registry [consul] Registering node: go.micro.service.upload-11cd65e6-2765-42d9-862f-c21ffe8b5542
+2023-09-20 00:11:09  file=server/rpc_server.go:787 level=info Registry [consul] Deregistering node: go.micro.service.upload-11cd65e6-2765-42d9-862f-c21ffe8b5542
+2023-09-20 00:11:09  file=runtime/asm_amd64.s:1598 level=info Broker [http] Disconnected from 127.0.0.1:40421
+dial tcp 127.0.0.1:6379: connect: connection refused
+dial tcp 127.0.0.1:6379: connect: connection refused
+<nil>
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] POST   /file/upload              --> filestore-server/service/upload/api.DoUploadHandler (4 handlers)
+2023-09-20 00:22:42  file=upload/main.go:26 level=info Starting [service] go.micro.service.upload
+[GIN-debug] POST   /file/fastupload          --> filestore-server/service/upload/api.TryFastUploadHandler (4 handlers)
+[GIN-debug] POST   /file/mpupload/init       --> filestore-server/service/upload/api.InitialMultipartUploadHandler (4 handlers)
+[GIN-debug] POST   /file/mpupload/uppart     --> filestore-server/service/upload/api.UploadPartHandler (4 handlers)
+[GIN-debug] POST   /file/mpupload/complete   --> filestore-server/service/upload/api.CompleteUploadHandler (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on 0.0.0.0:28080
+2023-09-20 00:22:42  file=v4@v4.10.2/service.go:99 level=info Transport [http] Listening on [::]:38663
+2023-09-20 00:22:42  file=v4@v4.10.2/service.go:99 level=info Broker [http] Connected to 127.0.0.1:43681
+2023-09-20 00:22:42  file=server/rpc_server.go:556 level=info Registry [consul] Registering node: go.micro.service.upload-220c1470-10c4-421e-948f-154f389e796a
+2023-09-20 00:23:00  file=server/rpc_server.go:787 level=info Registry [consul] Deregistering node: go.micro.service.upload-220c1470-10c4-421e-948f-154f389e796a
+2023-09-20 00:23:00  file=runtime/asm_amd64.s:1598 level=info Broker [http] Disconnected from 127.0.0.1:43681
+dial tcp 127.0.0.1:6379: connect: connection refused
+dial tcp 127.0.0.1:6379: connect: connection refused
+<nil>
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+2023-09-20 00:27:23  file=upload/main.go:26 level=info Starting [service] go.micro.service.upload
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] POST   /file/upload              --> filestore-server/service/upload/api.DoUploadHandler (4 handlers)
+[GIN-debug] POST   /file/fastupload          --> filestore-server/service/upload/api.TryFastUploadHandler (4 handlers)
+[GIN-debug] POST   /file/mpupload/init       --> filestore-server/service/upload/api.InitialMultipartUploadHandler (4 handlers)
+[GIN-debug] POST   /file/mpupload/uppart     --> filestore-server/service/upload/api.UploadPartHandler (4 handlers)
+[GIN-debug] POST   /file/mpupload/complete   --> filestore-server/service/upload/api.CompleteUploadHandler (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on 0.0.0.0:28080
+2023-09-20 00:27:23  file=v4@v4.10.2/service.go:99 level=info Transport [http] Listening on [::]:40361
+2023-09-20 00:27:23  file=v4@v4.10.2/service.go:99 level=info Broker [http] Connected to 127.0.0.1:43527
+2023-09-20 00:27:23  file=server/rpc_server.go:556 level=info Registry [consul] Registering node: go.micro.service.upload-497c0079-6726-4292-bf65-a301e5704555
+2023/09/20 00:38:01 Failed to create file, err:open /data/fileserver/536ef068c8e6e82ef8cda9b4b8b4dde858595f7f: no such file or directory
+[GIN] 2023/09/20 - 00:38:01 | 200 |    3.338327ms |             ::1 | POST     "/file/upload?username=ice&token=069f2b36e7bf546d96b5e413ec2a56556509cd09"
+2023/09/20 00:38:08 Failed to create file, err:open /data/fileserver/536ef068c8e6e82ef8cda9b4b8b4dde858595f7f: no such file or directory
+[GIN] 2023/09/20 - 00:38:08 | 200 |     958.881µs |             ::1 | POST     "/file/upload?username=ice&token=069f2b36e7bf546d96b5e413ec2a56556509cd09"
+2023-09-20 00:56:29  file=server/rpc_server.go:787 level=info Registry [consul] Deregistering node: go.micro.service.upload-497c0079-6726-4292-bf65-a301e5704555
+2023-09-20 00:56:29  file=runtime/asm_amd64.s:1598 level=info Broker [http] Disconnected from 127.0.0.1:43527

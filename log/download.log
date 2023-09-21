@@ -1,0 +1,155 @@
+panic: qtls.ConnectionState not compatible with tls.ConnectionState
+
+goroutine 1 [running]:
+github.com/lucas-clemente/quic-go/internal/handshake.init.1()
+	/home/blover/go/pkg/mod/github.com/lucas-clemente/quic-go@v0.13.1/internal/handshake/unsafe.go:17 +0xc5
+panic: qtls.ConnectionState not compatible with tls.ConnectionState
+
+goroutine 1 [running]:
+github.com/lucas-clemente/quic-go/internal/handshake.init.1()
+	/home/blover/go/pkg/mod/github.com/lucas-clemente/quic-go@v0.13.1/internal/handshake/unsafe.go:17 +0xc5
+panic: qtls.ConnectionState not compatible with tls.ConnectionState
+
+goroutine 1 [running]:
+github.com/lucas-clemente/quic-go/internal/handshake.init.1()
+	/home/blover/go/pkg/mod/github.com/lucas-clemente/quic-go@v0.13.1/internal/handshake/unsafe.go:17 +0xc5
+panic: qtls.ConnectionState not compatible with tls.ConnectionState
+
+goroutine 1 [running]:
+github.com/lucas-clemente/quic-go/internal/handshake.init.1()
+	/home/blover/go/pkg/mod/github.com/lucas-clemente/quic-go@v0.13.1/internal/handshake/unsafe.go:17 +0xc5
+panic: qtls.ConnectionState not compatible with tls.ConnectionState
+
+goroutine 1 [running]:
+github.com/lucas-clemente/quic-go/internal/handshake.init.1()
+	/home/blover/go/pkg/mod/github.com/lucas-clemente/quic-go@v0.13.1/internal/handshake/unsafe.go:17 +0xc5
+panic: qtls.ConnectionState not compatible with tls.ConnectionState
+
+goroutine 1 [running]:
+github.com/lucas-clemente/quic-go/internal/handshake.init.1()
+	/home/blover/go/pkg/mod/github.com/lucas-clemente/quic-go@v0.13.1/internal/handshake/unsafe.go:17 +0xc5
+panic: qtls.ConnectionState not compatible with tls.ConnectionState
+
+goroutine 1 [running]:
+github.com/lucas-clemente/quic-go/internal/handshake.init.1()
+	/home/blover/go/pkg/mod/github.com/lucas-clemente/quic-go@v0.13.1/internal/handshake/unsafe.go:17 +0xc5
+panic: qtls.ConnectionState not compatible with tls.ConnectionState
+
+goroutine 1 [running]:
+github.com/lucas-clemente/quic-go/internal/handshake.init.1()
+	/home/blover/go/pkg/mod/github.com/lucas-clemente/quic-go@v0.13.1/internal/handshake/unsafe.go:17 +0xc5
+panic: qtls.ConnectionState not compatible with tls.ConnectionState
+
+goroutine 1 [running]:
+github.com/lucas-clemente/quic-go/internal/handshake.init.1()
+	/home/blover/go/pkg/mod/github.com/lucas-clemente/quic-go@v0.13.1/internal/handshake/unsafe.go:17 +0xc5
+panic: qtls.ConnectionState not compatible with tls.ConnectionState
+
+goroutine 1 [running]:
+github.com/lucas-clemente/quic-go/internal/handshake.init.1()
+	/home/blover/go/pkg/mod/github.com/lucas-clemente/quic-go@v0.13.1/internal/handshake/unsafe.go:17 +0xc5
+panic: qtls.ConnectionState not compatible with tls.ConnectionState
+
+goroutine 1 [running]:
+github.com/lucas-clemente/quic-go/internal/handshake.init.1()
+	/home/blover/go/pkg/mod/github.com/lucas-clemente/quic-go@v0.13.1/internal/handshake/unsafe.go:17 +0xc5
+Failed to connect to mysql, err:dial tcp 127.0.0.1:3306: connect: connection refused
+Registry consul not found
+Registry consul not found
+Registry consul not found
+Registry consul not found
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] GET    /file/download            --> filestore-server/service/download/api.DownloadHandler (4 handlers)
+[GIN-debug] POST   /file/downloadurl         --> filestore-server/service/download/api.DownloadURLHandler (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on 0.0.0.0:38080
+2023-09-19 23:49:36  file=download/main.go:26 level=info Starting [service] go.micro.service.download
+2023-09-19 23:49:36  file=v4@v4.10.2/service.go:99 level=info Transport [http] Listening on [::]:39897
+2023-09-19 23:49:36  file=v4@v4.10.2/service.go:99 level=info Broker [http] Connected to 127.0.0.1:44987
+2023-09-19 23:49:36  file=server/rpc_server.go:556 level=info Registry [consul] Registering node: go.micro.service.download-f40c1a2b-ce80-438a-9195-cf8e6fd5aa36
+2023-09-19 23:50:34  file=server/rpc_server.go:787 level=info Registry [consul] Deregistering node: go.micro.service.download-f40c1a2b-ce80-438a-9195-cf8e6fd5aa36
+2023-09-19 23:50:34  file=runtime/asm_amd64.s:1598 level=info Broker [http] Disconnected from 127.0.0.1:44987
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] GET    /file/download            --> filestore-server/service/download/api.DownloadHandler (4 handlers)
+[GIN-debug] POST   /file/downloadurl         --> filestore-server/service/download/api.DownloadURLHandler (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on 0.0.0.0:38080
+2023-09-19 23:50:46  file=download/main.go:26 level=info Starting [service] go.micro.service.download
+2023-09-19 23:50:46  file=v4@v4.10.2/service.go:99 level=info Transport [http] Listening on [::]:37629
+2023-09-19 23:50:46  file=v4@v4.10.2/service.go:99 level=info Broker [http] Connected to 127.0.0.1:44515
+2023-09-19 23:50:46  file=server/rpc_server.go:556 level=info Registry [consul] Registering node: go.micro.service.download-2832cdba-6006-4299-98ef-fc93a8235d52
+2023-09-20 00:10:41  file=server/rpc_server.go:787 level=info Registry [consul] Deregistering node: go.micro.service.download-2832cdba-6006-4299-98ef-fc93a8235d52
+2023-09-20 00:10:41  file=runtime/asm_amd64.s:1598 level=info Broker [http] Disconnected from 127.0.0.1:44515
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] GET    /file/download            --> filestore-server/service/download/api.DownloadHandler (4 handlers)
+[GIN-debug] POST   /file/downloadurl         --> filestore-server/service/download/api.DownloadURLHandler (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on 0.0.0.0:38080
+2023-09-20 00:10:51  file=download/main.go:26 level=info Starting [service] go.micro.service.download
+2023-09-20 00:10:51  file=v4@v4.10.2/service.go:99 level=info Transport [http] Listening on [::]:41589
+2023-09-20 00:10:51  file=v4@v4.10.2/service.go:99 level=info Broker [http] Connected to 127.0.0.1:46447
+2023-09-20 00:10:51  file=server/rpc_server.go:556 level=info Registry [consul] Registering node: go.micro.service.download-83f4c49e-ebfb-4d7a-ba44-54d282559d04
+2023-09-20 00:11:08  file=server/rpc_server.go:787 level=info Registry [consul] Deregistering node: go.micro.service.download-83f4c49e-ebfb-4d7a-ba44-54d282559d04
+2023-09-20 00:11:08  file=runtime/asm_amd64.s:1598 level=info Broker [http] Disconnected from 127.0.0.1:46447
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+2023-09-20 00:22:44  file=download/main.go:26 level=info Starting [service] go.micro.service.download
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] GET    /file/download            --> filestore-server/service/download/api.DownloadHandler (4 handlers)
+[GIN-debug] POST   /file/downloadurl         --> filestore-server/service/download/api.DownloadURLHandler (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on 0.0.0.0:38080
+2023-09-20 00:22:44  file=v4@v4.10.2/service.go:99 level=info Transport [http] Listening on [::]:37981
+2023-09-20 00:22:44  file=v4@v4.10.2/service.go:99 level=info Broker [http] Connected to 127.0.0.1:33713
+2023-09-20 00:22:44  file=server/rpc_server.go:556 level=info Registry [consul] Registering node: go.micro.service.download-150e248f-4b9b-4265-b2cf-cec774d8a21a
+2023-09-20 00:22:59  file=server/rpc_server.go:787 level=info Registry [consul] Deregistering node: go.micro.service.download-150e248f-4b9b-4265-b2cf-cec774d8a21a
+2023-09-20 00:22:59  file=runtime/asm_amd64.s:1598 level=info Broker [http] Disconnected from 127.0.0.1:33713
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] GET    /file/download            --> filestore-server/service/download/api.DownloadHandler (4 handlers)
+2023-09-20 00:27:26  file=download/main.go:26 level=info Starting [service] go.micro.service.download
+[GIN-debug] POST   /file/downloadurl         --> filestore-server/service/download/api.DownloadURLHandler (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on 0.0.0.0:38080
+2023-09-20 00:27:26  file=v4@v4.10.2/service.go:99 level=info Transport [http] Listening on [::]:39813
+2023-09-20 00:27:26  file=v4@v4.10.2/service.go:99 level=info Broker [http] Connected to 127.0.0.1:37981
+2023-09-20 00:27:26  file=server/rpc_server.go:556 level=info Registry [consul] Registering node: go.micro.service.download-e7aa6dc6-0377-4259-8465-e4fabb011afa
+2023-09-20 00:56:28  file=server/rpc_server.go:787 level=info Registry [consul] Deregistering node: go.micro.service.download-e7aa6dc6-0377-4259-8465-e4fabb011afa
+2023-09-20 00:56:28  file=runtime/asm_amd64.s:1598 level=info Broker [http] Disconnected from 127.0.0.1:37981

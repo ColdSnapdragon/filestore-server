@@ -1,0 +1,95 @@
+panic: qtls.ConnectionState not compatible with tls.ConnectionState
+
+goroutine 1 [running]:
+github.com/lucas-clemente/quic-go/internal/handshake.init.1()
+	/home/blover/go/pkg/mod/github.com/lucas-clemente/quic-go@v0.13.1/internal/handshake/unsafe.go:17 +0xc5
+panic: qtls.ConnectionState not compatible with tls.ConnectionState
+
+goroutine 1 [running]:
+github.com/lucas-clemente/quic-go/internal/handshake.init.1()
+	/home/blover/go/pkg/mod/github.com/lucas-clemente/quic-go@v0.13.1/internal/handshake/unsafe.go:17 +0xc5
+panic: qtls.ConnectionState not compatible with tls.ConnectionState
+
+goroutine 1 [running]:
+github.com/lucas-clemente/quic-go/internal/handshake.init.1()
+	/home/blover/go/pkg/mod/github.com/lucas-clemente/quic-go@v0.13.1/internal/handshake/unsafe.go:17 +0xc5
+panic: qtls.ConnectionState not compatible with tls.ConnectionState
+
+goroutine 1 [running]:
+github.com/lucas-clemente/quic-go/internal/handshake.init.1()
+	/home/blover/go/pkg/mod/github.com/lucas-clemente/quic-go@v0.13.1/internal/handshake/unsafe.go:17 +0xc5
+panic: qtls.ConnectionState not compatible with tls.ConnectionState
+
+goroutine 1 [running]:
+github.com/lucas-clemente/quic-go/internal/handshake.init.1()
+	/home/blover/go/pkg/mod/github.com/lucas-clemente/quic-go@v0.13.1/internal/handshake/unsafe.go:17 +0xc5
+panic: qtls.ConnectionState not compatible with tls.ConnectionState
+
+goroutine 1 [running]:
+github.com/lucas-clemente/quic-go/internal/handshake.init.1()
+	/home/blover/go/pkg/mod/github.com/lucas-clemente/quic-go@v0.13.1/internal/handshake/unsafe.go:17 +0xc5
+panic: qtls.ConnectionState not compatible with tls.ConnectionState
+
+goroutine 1 [running]:
+github.com/lucas-clemente/quic-go/internal/handshake.init.1()
+	/home/blover/go/pkg/mod/github.com/lucas-clemente/quic-go@v0.13.1/internal/handshake/unsafe.go:17 +0xc5
+panic: qtls.ConnectionState not compatible with tls.ConnectionState
+
+goroutine 1 [running]:
+github.com/lucas-clemente/quic-go/internal/handshake.init.1()
+	/home/blover/go/pkg/mod/github.com/lucas-clemente/quic-go@v0.13.1/internal/handshake/unsafe.go:17 +0xc5
+panic: qtls.ConnectionState not compatible with tls.ConnectionState
+
+goroutine 1 [running]:
+github.com/lucas-clemente/quic-go/internal/handshake.init.1()
+	/home/blover/go/pkg/mod/github.com/lucas-clemente/quic-go@v0.13.1/internal/handshake/unsafe.go:17 +0xc5
+panic: qtls.ConnectionState not compatible with tls.ConnectionState
+
+goroutine 1 [running]:
+github.com/lucas-clemente/quic-go/internal/handshake.init.1()
+	/home/blover/go/pkg/mod/github.com/lucas-clemente/quic-go@v0.13.1/internal/handshake/unsafe.go:17 +0xc5
+panic: qtls.ConnectionState not compatible with tls.ConnectionState
+
+goroutine 1 [running]:
+github.com/lucas-clemente/quic-go/internal/handshake.init.1()
+	/home/blover/go/pkg/mod/github.com/lucas-clemente/quic-go@v0.13.1/internal/handshake/unsafe.go:17 +0xc5
+Failed to connect to mysql, err:dial tcp 127.0.0.1:3306: connect: connection refused
+Registry consul not found
+Registry consul not found
+Registry consul not found
+Registry consul not found
+2023-09-19 23:49:38  file=transfer/main.go:68 level=info Starting [service] go.micro.service.transfer
+2023/09/19 23:49:38 异步转移文件功能目前被禁用，请检查相关配置
+2023-09-19 23:49:38  file=v4@v4.10.2/service.go:99 level=info Transport [http] Listening on [::]:43191
+2023-09-19 23:49:38  file=v4@v4.10.2/service.go:99 level=info Broker [http] Connected to 127.0.0.1:39043
+2023-09-19 23:49:38  file=server/rpc_server.go:556 level=info Registry [consul] Registering node: go.micro.service.transfer-b15ca696-4efd-4014-b108-70b9e3e07d52
+2023-09-19 23:50:33  file=server/rpc_server.go:787 level=info Registry [consul] Deregistering node: go.micro.service.transfer-b15ca696-4efd-4014-b108-70b9e3e07d52
+2023-09-19 23:50:33  file=runtime/asm_amd64.s:1598 level=info Broker [http] Disconnected from 127.0.0.1:39043
+2023-09-19 23:50:48  file=transfer/main.go:68 level=info Starting [service] go.micro.service.transfer
+2023/09/19 23:50:48 异步转移文件功能目前被禁用，请检查相关配置
+2023-09-19 23:50:48  file=v4@v4.10.2/service.go:99 level=info Transport [http] Listening on [::]:38145
+2023-09-19 23:50:48  file=v4@v4.10.2/service.go:99 level=info Broker [http] Connected to 127.0.0.1:34563
+2023-09-19 23:50:48  file=server/rpc_server.go:556 level=info Registry [consul] Registering node: go.micro.service.transfer-409bf3af-022b-42cf-8ce5-049ff06392a3
+2023-09-20 00:10:40  file=server/rpc_server.go:787 level=info Registry [consul] Deregistering node: go.micro.service.transfer-409bf3af-022b-42cf-8ce5-049ff06392a3
+2023-09-20 00:10:40  file=runtime/asm_amd64.s:1598 level=info Broker [http] Disconnected from 127.0.0.1:34563
+2023-09-20 00:10:53  file=transfer/main.go:68 level=info Starting [service] go.micro.service.transfer
+2023/09/20 00:10:53 异步转移文件功能目前被禁用，请检查相关配置
+2023-09-20 00:10:53  file=v4@v4.10.2/service.go:99 level=info Transport [http] Listening on [::]:46275
+2023-09-20 00:10:53  file=v4@v4.10.2/service.go:99 level=info Broker [http] Connected to 127.0.0.1:45663
+2023-09-20 00:10:53  file=server/rpc_server.go:556 level=info Registry [consul] Registering node: go.micro.service.transfer-9629ff0e-4158-4989-a92d-04d19ccb7577
+2023-09-20 00:11:07  file=server/rpc_server.go:787 level=info Registry [consul] Deregistering node: go.micro.service.transfer-9629ff0e-4158-4989-a92d-04d19ccb7577
+2023-09-20 00:11:07  file=runtime/asm_amd64.s:1598 level=info Broker [http] Disconnected from 127.0.0.1:45663
+2023-09-20 00:22:46  file=transfer/main.go:68 level=info Starting [service] go.micro.service.transfer
+2023/09/20 00:22:46 异步转移文件功能目前被禁用，请检查相关配置
+2023-09-20 00:22:46  file=v4@v4.10.2/service.go:99 level=info Transport [http] Listening on [::]:42421
+2023-09-20 00:22:46  file=v4@v4.10.2/service.go:99 level=info Broker [http] Connected to 127.0.0.1:35535
+2023-09-20 00:22:46  file=server/rpc_server.go:556 level=info Registry [consul] Registering node: go.micro.service.transfer-cf704fae-e408-408f-9092-d6efad22567e
+2023-09-20 00:22:58  file=server/rpc_server.go:787 level=info Registry [consul] Deregistering node: go.micro.service.transfer-cf704fae-e408-408f-9092-d6efad22567e
+2023-09-20 00:22:58  file=runtime/asm_amd64.s:1598 level=info Broker [http] Disconnected from 127.0.0.1:35535
+2023/09/20 00:27:28 异步转移文件功能目前被禁用，请检查相关配置
+2023-09-20 00:27:28  file=transfer/main.go:68 level=info Starting [service] go.micro.service.transfer
+2023-09-20 00:27:28  file=v4@v4.10.2/service.go:99 level=info Transport [http] Listening on [::]:43141
+2023-09-20 00:27:28  file=v4@v4.10.2/service.go:99 level=info Broker [http] Connected to 127.0.0.1:33043
+2023-09-20 00:27:28  file=server/rpc_server.go:556 level=info Registry [consul] Registering node: go.micro.service.transfer-a4eee19b-4202-4a3c-93a6-e3f4a474a3a5
+2023-09-20 00:56:27  file=server/rpc_server.go:787 level=info Registry [consul] Deregistering node: go.micro.service.transfer-a4eee19b-4202-4a3c-93a6-e3f4a474a3a5
+2023-09-20 00:56:27  file=runtime/asm_amd64.s:1598 level=info Broker [http] Disconnected from 127.0.0.1:33043

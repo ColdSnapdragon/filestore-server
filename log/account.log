@@ -1,0 +1,90 @@
+panic: qtls.ConnectionState not compatible with tls.ConnectionState
+
+goroutine 1 [running]:
+github.com/lucas-clemente/quic-go/internal/handshake.init.1()
+	/home/blover/go/pkg/mod/github.com/lucas-clemente/quic-go@v0.13.1/internal/handshake/unsafe.go:17 +0xc5
+panic: qtls.ConnectionState not compatible with tls.ConnectionState
+
+goroutine 1 [running]:
+github.com/lucas-clemente/quic-go/internal/handshake.init.1()
+	/home/blover/go/pkg/mod/github.com/lucas-clemente/quic-go@v0.13.1/internal/handshake/unsafe.go:17 +0xc5
+panic: qtls.ConnectionState not compatible with tls.ConnectionState
+
+goroutine 1 [running]:
+github.com/lucas-clemente/quic-go/internal/handshake.init.1()
+	/home/blover/go/pkg/mod/github.com/lucas-clemente/quic-go@v0.13.1/internal/handshake/unsafe.go:17 +0xc5
+panic: qtls.ConnectionState not compatible with tls.ConnectionState
+
+goroutine 1 [running]:
+github.com/lucas-clemente/quic-go/internal/handshake.init.1()
+	/home/blover/go/pkg/mod/github.com/lucas-clemente/quic-go@v0.13.1/internal/handshake/unsafe.go:17 +0xc5
+panic: qtls.ConnectionState not compatible with tls.ConnectionState
+
+goroutine 1 [running]:
+github.com/lucas-clemente/quic-go/internal/handshake.init.1()
+	/home/blover/go/pkg/mod/github.com/lucas-clemente/quic-go@v0.13.1/internal/handshake/unsafe.go:17 +0xc5
+panic: qtls.ConnectionState not compatible with tls.ConnectionState
+
+goroutine 1 [running]:
+github.com/lucas-clemente/quic-go/internal/handshake.init.1()
+	/home/blover/go/pkg/mod/github.com/lucas-clemente/quic-go@v0.13.1/internal/handshake/unsafe.go:17 +0xc5
+panic: qtls.ConnectionState not compatible with tls.ConnectionState
+
+goroutine 1 [running]:
+github.com/lucas-clemente/quic-go/internal/handshake.init.1()
+	/home/blover/go/pkg/mod/github.com/lucas-clemente/quic-go@v0.13.1/internal/handshake/unsafe.go:17 +0xc5
+panic: qtls.ConnectionState not compatible with tls.ConnectionState
+
+goroutine 1 [running]:
+github.com/lucas-clemente/quic-go/internal/handshake.init.1()
+	/home/blover/go/pkg/mod/github.com/lucas-clemente/quic-go@v0.13.1/internal/handshake/unsafe.go:17 +0xc5
+panic: qtls.ConnectionState not compatible with tls.ConnectionState
+
+goroutine 1 [running]:
+github.com/lucas-clemente/quic-go/internal/handshake.init.1()
+	/home/blover/go/pkg/mod/github.com/lucas-clemente/quic-go@v0.13.1/internal/handshake/unsafe.go:17 +0xc5
+panic: qtls.ConnectionState not compatible with tls.ConnectionState
+
+goroutine 1 [running]:
+github.com/lucas-clemente/quic-go/internal/handshake.init.1()
+	/home/blover/go/pkg/mod/github.com/lucas-clemente/quic-go@v0.13.1/internal/handshake/unsafe.go:17 +0xc5
+panic: qtls.ConnectionState not compatible with tls.ConnectionState
+
+goroutine 1 [running]:
+github.com/lucas-clemente/quic-go/internal/handshake.init.1()
+	/home/blover/go/pkg/mod/github.com/lucas-clemente/quic-go@v0.13.1/internal/handshake/unsafe.go:17 +0xc5
+Failed to connect to mysql, err:dial tcp 127.0.0.1:3306: connect: connection refused
+Registry consul not found
+Registry consul not found
+Registry consul not found
+Registry consul not found
+2023-09-19 23:49:40  file=account/main.go:25 level=info Starting [service] go.micro.service.user
+2023-09-19 23:49:40  file=v4@v4.10.2/service.go:99 level=info Transport [http] Listening on [::]:43061
+2023-09-19 23:49:40  file=v4@v4.10.2/service.go:99 level=info Broker [http] Connected to 127.0.0.1:37455
+2023-09-19 23:49:40  file=server/rpc_server.go:556 level=info Registry [consul] Registering node: go.micro.service.user-6723020c-5ee5-4388-b0e1-a778ce8fc9f8
+2023-09-19 23:50:32  file=server/rpc_server.go:787 level=info Registry [consul] Deregistering node: go.micro.service.user-6723020c-5ee5-4388-b0e1-a778ce8fc9f8
+2023-09-19 23:50:32  file=runtime/asm_amd64.s:1598 level=info Broker [http] Disconnected from 127.0.0.1:37455
+2023-09-19 23:50:50  file=account/main.go:25 level=info Starting [service] go.micro.service.user
+2023-09-19 23:50:50  file=v4@v4.10.2/service.go:99 level=info Transport [http] Listening on [::]:41359
+2023-09-19 23:50:50  file=v4@v4.10.2/service.go:99 level=info Broker [http] Connected to 127.0.0.1:40039
+2023-09-19 23:50:50  file=server/rpc_server.go:556 level=info Registry [consul] Registering node: go.micro.service.user-f89894a4-c7d8-4237-a455-7f91e00c6b0f
+2023-09-20 00:10:39  file=server/rpc_server.go:787 level=info Registry [consul] Deregistering node: go.micro.service.user-f89894a4-c7d8-4237-a455-7f91e00c6b0f
+2023-09-20 00:10:39  file=runtime/asm_amd64.s:1598 level=info Broker [http] Disconnected from 127.0.0.1:40039
+2023-09-20 00:10:55  file=account/main.go:25 level=info Starting [service] go.micro.service.user
+2023-09-20 00:10:55  file=v4@v4.10.2/service.go:99 level=info Transport [http] Listening on [::]:41795
+2023-09-20 00:10:55  file=v4@v4.10.2/service.go:99 level=info Broker [http] Connected to 127.0.0.1:39555
+2023-09-20 00:10:55  file=server/rpc_server.go:556 level=info Registry [consul] Registering node: go.micro.service.user-31ac8a0b-54c4-4efa-bebb-eddcd871b145
+2023-09-20 00:11:06  file=server/rpc_server.go:787 level=info Registry [consul] Deregistering node: go.micro.service.user-31ac8a0b-54c4-4efa-bebb-eddcd871b145
+2023-09-20 00:11:06  file=runtime/asm_amd64.s:1598 level=info Broker [http] Disconnected from 127.0.0.1:39555
+2023-09-20 00:22:48  file=account/main.go:25 level=info Starting [service] go.micro.service.user
+2023-09-20 00:22:48  file=v4@v4.10.2/service.go:99 level=info Transport [http] Listening on [::]:39225
+2023-09-20 00:22:48  file=v4@v4.10.2/service.go:99 level=info Broker [http] Connected to 127.0.0.1:37355
+2023-09-20 00:22:48  file=server/rpc_server.go:556 level=info Registry [consul] Registering node: go.micro.service.user-120049e7-0511-4414-a910-8562d107b4e7
+2023-09-20 00:22:57  file=server/rpc_server.go:787 level=info Registry [consul] Deregistering node: go.micro.service.user-120049e7-0511-4414-a910-8562d107b4e7
+2023-09-20 00:22:57  file=runtime/asm_amd64.s:1598 level=info Broker [http] Disconnected from 127.0.0.1:37355
+2023-09-20 00:27:30  file=account/main.go:25 level=info Starting [service] go.micro.service.user
+2023-09-20 00:27:30  file=v4@v4.10.2/service.go:99 level=info Transport [http] Listening on [::]:46017
+2023-09-20 00:27:30  file=v4@v4.10.2/service.go:99 level=info Broker [http] Connected to 127.0.0.1:43467
+2023-09-20 00:27:30  file=server/rpc_server.go:556 level=info Registry [consul] Registering node: go.micro.service.user-6a5f8b97-ab62-4bb9-8850-a2807444619a
+2023-09-20 00:56:26  file=server/rpc_server.go:787 level=info Registry [consul] Deregistering node: go.micro.service.user-6a5f8b97-ab62-4bb9-8850-a2807444619a
+2023-09-20 00:56:26  file=runtime/asm_amd64.s:1598 level=info Broker [http] Disconnected from 127.0.0.1:43467

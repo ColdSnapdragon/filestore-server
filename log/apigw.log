@@ -1,0 +1,326 @@
+panic: qtls.ConnectionState not compatible with tls.ConnectionState
+
+goroutine 1 [running]:
+github.com/lucas-clemente/quic-go/internal/handshake.init.1()
+	/home/blover/go/pkg/mod/github.com/lucas-clemente/quic-go@v0.13.1/internal/handshake/unsafe.go:17 +0xc5
+panic: qtls.ConnectionState not compatible with tls.ConnectionState
+
+goroutine 1 [running]:
+github.com/lucas-clemente/quic-go/internal/handshake.init.1()
+	/home/blover/go/pkg/mod/github.com/lucas-clemente/quic-go@v0.13.1/internal/handshake/unsafe.go:17 +0xc5
+panic: qtls.ConnectionState not compatible with tls.ConnectionState
+
+goroutine 1 [running]:
+github.com/lucas-clemente/quic-go/internal/handshake.init.1()
+	/home/blover/go/pkg/mod/github.com/lucas-clemente/quic-go@v0.13.1/internal/handshake/unsafe.go:17 +0xc5
+panic: qtls.ConnectionState not compatible with tls.ConnectionState
+
+goroutine 1 [running]:
+github.com/lucas-clemente/quic-go/internal/handshake.init.1()
+	/home/blover/go/pkg/mod/github.com/lucas-clemente/quic-go@v0.13.1/internal/handshake/unsafe.go:17 +0xc5
+panic: qtls.ConnectionState not compatible with tls.ConnectionState
+
+goroutine 1 [running]:
+github.com/lucas-clemente/quic-go/internal/handshake.init.1()
+	/home/blover/go/pkg/mod/github.com/lucas-clemente/quic-go@v0.13.1/internal/handshake/unsafe.go:17 +0xc5
+panic: qtls.ConnectionState not compatible with tls.ConnectionState
+
+goroutine 1 [running]:
+github.com/lucas-clemente/quic-go/internal/handshake.init.1()
+	/home/blover/go/pkg/mod/github.com/lucas-clemente/quic-go@v0.13.1/internal/handshake/unsafe.go:17 +0xc5
+panic: qtls.ConnectionState not compatible with tls.ConnectionState
+
+goroutine 1 [running]:
+github.com/lucas-clemente/quic-go/internal/handshake.init.1()
+	/home/blover/go/pkg/mod/github.com/lucas-clemente/quic-go@v0.13.1/internal/handshake/unsafe.go:17 +0xc5
+panic: qtls.ConnectionState not compatible with tls.ConnectionState
+
+goroutine 1 [running]:
+github.com/lucas-clemente/quic-go/internal/handshake.init.1()
+	/home/blover/go/pkg/mod/github.com/lucas-clemente/quic-go@v0.13.1/internal/handshake/unsafe.go:17 +0xc5
+panic: qtls.ConnectionState not compatible with tls.ConnectionState
+
+goroutine 1 [running]:
+github.com/lucas-clemente/quic-go/internal/handshake.init.1()
+	/home/blover/go/pkg/mod/github.com/lucas-clemente/quic-go@v0.13.1/internal/handshake/unsafe.go:17 +0xc5
+panic: qtls.ConnectionState not compatible with tls.ConnectionState
+
+goroutine 1 [running]:
+github.com/lucas-clemente/quic-go/internal/handshake.init.1()
+	/home/blover/go/pkg/mod/github.com/lucas-clemente/quic-go@v0.13.1/internal/handshake/unsafe.go:17 +0xc5
+panic: qtls.ConnectionState not compatible with tls.ConnectionState
+
+goroutine 1 [running]:
+github.com/lucas-clemente/quic-go/internal/handshake.init.1()
+	/home/blover/go/pkg/mod/github.com/lucas-clemente/quic-go@v0.13.1/internal/handshake/unsafe.go:17 +0xc5
+panic: proto: file "upload.proto" has a name conflict over RespEntry
+	previously from: "filestore-server/service/download/proto"
+	currently from:  "filestore-server/service/upload/proto"
+See https://protobuf.dev/reference/go/faq#namespace-conflict
+
+
+goroutine 1 [running]:
+google.golang.org/protobuf/reflect/protoregistry.glob..func1({0xf97500?, 0xc00041d470?}, {0xf97500?, 0xc00041d4b0})
+	/home/blover/go/pkg/mod/google.golang.org/protobuf@v1.30.0/reflect/protoregistry/registry.go:56 +0x1ee
+google.golang.org/protobuf/reflect/protoregistry.(*Files).RegisterFile.func1({0xfa4d00, 0xc000503110})
+	/home/blover/go/pkg/mod/google.golang.org/protobuf@v1.30.0/reflect/protoregistry/registry.go:154 +0x279
+google.golang.org/protobuf/reflect/protoregistry.rangeTopLevelDescriptors({0xfa8028, 0xc0004a0700}, 0xc00045f620)
+	/home/blover/go/pkg/mod/google.golang.org/protobuf@v1.30.0/reflect/protoregistry/registry.go:417 +0x171
+google.golang.org/protobuf/reflect/protoregistry.(*Files).RegisterFile(0xc0000d8bd0, {0xfa8028?, 0xc0004a0700?})
+	/home/blover/go/pkg/mod/google.golang.org/protobuf@v1.30.0/reflect/protoregistry/registry.go:149 +0x739
+google.golang.org/protobuf/internal/filedesc.Builder.Build({{0xcc1181, 0x25}, {0x1517ec0, 0xb9, 0xb9}, 0x0, 0x2, 0x0, 0x1, {0xf9ab98, ...}, ...})
+	/home/blover/go/pkg/mod/google.golang.org/protobuf@v1.30.0/internal/filedesc/build.go:112 +0x1d6
+google.golang.org/protobuf/internal/filetype.Builder.Build({{{0xcc1181, 0x25}, {0x1517ec0, 0xb9, 0xb9}, 0x0, 0x2, 0x0, 0x1, {0x0, ...}, ...}, ...})
+	/home/blover/go/pkg/mod/google.golang.org/protobuf@v1.30.0/internal/filetype/build.go:138 +0x1b8
+filestore-server/service/upload/proto.file_upload_proto_init()
+	/home/blover/Golang/project/filestore-server-charter10/service/upload/proto/upload.pb.go:212 +0x19a
+filestore-server/service/upload/proto.init.0()
+	/home/blover/Golang/project/filestore-server-charter10/service/upload/proto/upload.pb.go:168 +0x17
+panic: proto: file "upload.proto" has a name conflict over RespEntry
+	previously from: "filestore-server/service/download/proto"
+	currently from:  "filestore-server/service/upload/proto"
+See https://protobuf.dev/reference/go/faq#namespace-conflict
+
+
+goroutine 1 [running]:
+google.golang.org/protobuf/reflect/protoregistry.glob..func1({0xf97500?, 0xc0005a2c20?}, {0xf97500?, 0xc0005a2c60})
+	/home/blover/go/pkg/mod/google.golang.org/protobuf@v1.30.0/reflect/protoregistry/registry.go:56 +0x1ee
+google.golang.org/protobuf/reflect/protoregistry.(*Files).RegisterFile.func1({0xfa4d00, 0xc000582c30})
+	/home/blover/go/pkg/mod/google.golang.org/protobuf@v1.30.0/reflect/protoregistry/registry.go:154 +0x279
+google.golang.org/protobuf/reflect/protoregistry.rangeTopLevelDescriptors({0xfa8028, 0xc00036d6c0}, 0xc00012b620)
+	/home/blover/go/pkg/mod/google.golang.org/protobuf@v1.30.0/reflect/protoregistry/registry.go:417 +0x171
+google.golang.org/protobuf/reflect/protoregistry.(*Files).RegisterFile(0xc000012be8, {0xfa8028?, 0xc00036d6c0?})
+	/home/blover/go/pkg/mod/google.golang.org/protobuf@v1.30.0/reflect/protoregistry/registry.go:149 +0x739
+google.golang.org/protobuf/internal/filedesc.Builder.Build({{0xcc1181, 0x25}, {0x1517ec0, 0xb9, 0xb9}, 0x0, 0x2, 0x0, 0x1, {0xf9ab98, ...}, ...})
+	/home/blover/go/pkg/mod/google.golang.org/protobuf@v1.30.0/internal/filedesc/build.go:112 +0x1d6
+google.golang.org/protobuf/internal/filetype.Builder.Build({{{0xcc1181, 0x25}, {0x1517ec0, 0xb9, 0xb9}, 0x0, 0x2, 0x0, 0x1, {0x0, ...}, ...}, ...})
+	/home/blover/go/pkg/mod/google.golang.org/protobuf@v1.30.0/internal/filetype/build.go:138 +0x1b8
+filestore-server/service/upload/proto.file_upload_proto_init()
+	/home/blover/Golang/project/filestore-server-charter10/service/upload/proto/upload.pb.go:212 +0x19a
+filestore-server/service/upload/proto.init.0()
+	/home/blover/Golang/project/filestore-server-charter10/service/upload/proto/upload.pb.go:168 +0x17
+panic: proto: file "upload.proto" has a name conflict over RespEntry
+	previously from: "filestore-server/service/download/proto"
+	currently from:  "filestore-server/service/upload/proto"
+See https://protobuf.dev/reference/go/faq#namespace-conflict
+
+
+goroutine 1 [running]:
+google.golang.org/protobuf/reflect/protoregistry.glob..func1({0xf97500?, 0xc00046d4b0?}, {0xf97500?, 0xc00046d4f0})
+	/home/blover/go/pkg/mod/google.golang.org/protobuf@v1.30.0/reflect/protoregistry/registry.go:56 +0x1ee
+google.golang.org/protobuf/reflect/protoregistry.(*Files).RegisterFile.func1({0xfa4d00, 0xc000582f70})
+	/home/blover/go/pkg/mod/google.golang.org/protobuf@v1.30.0/reflect/protoregistry/registry.go:154 +0x279
+google.golang.org/protobuf/reflect/protoregistry.rangeTopLevelDescriptors({0xfa8028, 0xc00036d6c0}, 0xc000137620)
+	/home/blover/go/pkg/mod/google.golang.org/protobuf@v1.30.0/reflect/protoregistry/registry.go:417 +0x171
+google.golang.org/protobuf/reflect/protoregistry.(*Files).RegisterFile(0xc000012c18, {0xfa8028?, 0xc00036d6c0?})
+	/home/blover/go/pkg/mod/google.golang.org/protobuf@v1.30.0/reflect/protoregistry/registry.go:149 +0x739
+google.golang.org/protobuf/internal/filedesc.Builder.Build({{0xcc1181, 0x25}, {0x1517ec0, 0xb9, 0xb9}, 0x0, 0x2, 0x0, 0x1, {0xf9ab98, ...}, ...})
+	/home/blover/go/pkg/mod/google.golang.org/protobuf@v1.30.0/internal/filedesc/build.go:112 +0x1d6
+google.golang.org/protobuf/internal/filetype.Builder.Build({{{0xcc1181, 0x25}, {0x1517ec0, 0xb9, 0xb9}, 0x0, 0x2, 0x0, 0x1, {0x0, ...}, ...}, ...})
+	/home/blover/go/pkg/mod/google.golang.org/protobuf@v1.30.0/internal/filetype/build.go:138 +0x1b8
+filestore-server/service/upload/proto.file_upload_proto_init()
+	/home/blover/Golang/project/filestore-server-charter10/service/upload/proto/upload.pb.go:212 +0x19a
+filestore-server/service/upload/proto.init.0()
+	/home/blover/Golang/project/filestore-server-charter10/service/upload/proto/upload.pb.go:168 +0x17
+panic: proto: file "upload.proto" has a name conflict over RespEntry
+	previously from: "filestore-server/service/download/proto"
+	currently from:  "filestore-server/service/upload/proto"
+See https://protobuf.dev/reference/go/faq#namespace-conflict
+
+
+goroutine 1 [running]:
+google.golang.org/protobuf/reflect/protoregistry.glob..func1({0xf97500?, 0xc000595f30?}, {0xf97500?, 0xc000595f70})
+	/home/blover/go/pkg/mod/google.golang.org/protobuf@v1.30.0/reflect/protoregistry/registry.go:56 +0x1ee
+google.golang.org/protobuf/reflect/protoregistry.(*Files).RegisterFile.func1({0xfa4d00, 0xc000503ad0})
+	/home/blover/go/pkg/mod/google.golang.org/protobuf@v1.30.0/reflect/protoregistry/registry.go:154 +0x279
+google.golang.org/protobuf/reflect/protoregistry.rangeTopLevelDescriptors({0xfa8028, 0xc0003896c0}, 0xc0000a9620)
+	/home/blover/go/pkg/mod/google.golang.org/protobuf@v1.30.0/reflect/protoregistry/registry.go:417 +0x171
+google.golang.org/protobuf/reflect/protoregistry.(*Files).RegisterFile(0xc000138bd0, {0xfa8028?, 0xc0003896c0?})
+	/home/blover/go/pkg/mod/google.golang.org/protobuf@v1.30.0/reflect/protoregistry/registry.go:149 +0x739
+google.golang.org/protobuf/internal/filedesc.Builder.Build({{0xcc1181, 0x25}, {0x1517ec0, 0xb9, 0xb9}, 0x0, 0x2, 0x0, 0x1, {0xf9ab98, ...}, ...})
+	/home/blover/go/pkg/mod/google.golang.org/protobuf@v1.30.0/internal/filedesc/build.go:112 +0x1d6
+google.golang.org/protobuf/internal/filetype.Builder.Build({{{0xcc1181, 0x25}, {0x1517ec0, 0xb9, 0xb9}, 0x0, 0x2, 0x0, 0x1, {0x0, ...}, ...}, ...})
+	/home/blover/go/pkg/mod/google.golang.org/protobuf@v1.30.0/internal/filetype/build.go:138 +0x1b8
+filestore-server/service/upload/proto.file_upload_proto_init()
+	/home/blover/Golang/project/filestore-server-charter10/service/upload/proto/upload.pb.go:212 +0x19a
+filestore-server/service/upload/proto.init.0()
+	/home/blover/Golang/project/filestore-server-charter10/service/upload/proto/upload.pb.go:168 +0x17
+panic: proto: file "upload.proto" has a name conflict over RespEntry
+	previously from: "filestore-server/service/download/proto"
+	currently from:  "filestore-server/service/upload/proto"
+See https://protobuf.dev/reference/go/faq#namespace-conflict
+
+
+goroutine 1 [running]:
+google.golang.org/protobuf/reflect/protoregistry.glob..func1({0xf97500?, 0xc0005ad2d0?}, {0xf97500?, 0xc0005ad310})
+	/home/blover/go/pkg/mod/google.golang.org/protobuf@v1.30.0/reflect/protoregistry/registry.go:56 +0x1ee
+google.golang.org/protobuf/reflect/protoregistry.(*Files).RegisterFile.func1({0xfa4d00, 0xc000503450})
+	/home/blover/go/pkg/mod/google.golang.org/protobuf@v1.30.0/reflect/protoregistry/registry.go:154 +0x279
+google.golang.org/protobuf/reflect/protoregistry.rangeTopLevelDescriptors({0xfa8028, 0xc000401500}, 0xc000127620)
+	/home/blover/go/pkg/mod/google.golang.org/protobuf@v1.30.0/reflect/protoregistry/registry.go:417 +0x171
+google.golang.org/protobuf/reflect/protoregistry.(*Files).RegisterFile(0xc0001aabd0, {0xfa8028?, 0xc000401500?})
+	/home/blover/go/pkg/mod/google.golang.org/protobuf@v1.30.0/reflect/protoregistry/registry.go:149 +0x739
+google.golang.org/protobuf/internal/filedesc.Builder.Build({{0xcc1181, 0x25}, {0x1517ec0, 0xb9, 0xb9}, 0x0, 0x2, 0x0, 0x1, {0xf9ab98, ...}, ...})
+	/home/blover/go/pkg/mod/google.golang.org/protobuf@v1.30.0/internal/filedesc/build.go:112 +0x1d6
+google.golang.org/protobuf/internal/filetype.Builder.Build({{{0xcc1181, 0x25}, {0x1517ec0, 0xb9, 0xb9}, 0x0, 0x2, 0x0, 0x1, {0x0, ...}, ...}, ...})
+	/home/blover/go/pkg/mod/google.golang.org/protobuf@v1.30.0/internal/filetype/build.go:138 +0x1b8
+filestore-server/service/upload/proto.file_upload_proto_init()
+	/home/blover/Golang/project/filestore-server-charter10/service/upload/proto/upload.pb.go:212 +0x19a
+filestore-server/service/upload/proto.init.0()
+	/home/blover/Golang/project/filestore-server-charter10/service/upload/proto/upload.pb.go:168 +0x17
+panic: proto: file "upload.proto" has a name conflict over RespEntry
+	previously from: "filestore-server/service/download/proto"
+	currently from:  "filestore-server/service/upload/proto"
+See https://protobuf.dev/reference/go/faq#namespace-conflict
+
+
+goroutine 1 [running]:
+google.golang.org/protobuf/reflect/protoregistry.glob..func1({0xf97500?, 0xc000615390?}, {0xf97500?, 0xc0006153d0})
+	/home/blover/go/pkg/mod/google.golang.org/protobuf@v1.30.0/reflect/protoregistry/registry.go:56 +0x1ee
+google.golang.org/protobuf/reflect/protoregistry.(*Files).RegisterFile.func1({0xfa4d00, 0xc00049f110})
+	/home/blover/go/pkg/mod/google.golang.org/protobuf@v1.30.0/reflect/protoregistry/registry.go:154 +0x279
+google.golang.org/protobuf/reflect/protoregistry.rangeTopLevelDescriptors({0xfa8028, 0xc00036d6c0}, 0xc000537620)
+	/home/blover/go/pkg/mod/google.golang.org/protobuf@v1.30.0/reflect/protoregistry/registry.go:417 +0x171
+google.golang.org/protobuf/reflect/protoregistry.(*Files).RegisterFile(0xc000012be8, {0xfa8028?, 0xc00036d6c0?})
+	/home/blover/go/pkg/mod/google.golang.org/protobuf@v1.30.0/reflect/protoregistry/registry.go:149 +0x739
+google.golang.org/protobuf/internal/filedesc.Builder.Build({{0xcc1181, 0x25}, {0x1517ec0, 0xb9, 0xb9}, 0x0, 0x2, 0x0, 0x1, {0xf9ab98, ...}, ...})
+	/home/blover/go/pkg/mod/google.golang.org/protobuf@v1.30.0/internal/filedesc/build.go:112 +0x1d6
+google.golang.org/protobuf/internal/filetype.Builder.Build({{{0xcc1181, 0x25}, {0x1517ec0, 0xb9, 0xb9}, 0x0, 0x2, 0x0, 0x1, {0x0, ...}, ...}, ...})
+	/home/blover/go/pkg/mod/google.golang.org/protobuf@v1.30.0/internal/filetype/build.go:138 +0x1b8
+filestore-server/service/upload/proto.file_upload_proto_init()
+	/home/blover/Golang/project/filestore-server-charter10/service/upload/proto/upload.pb.go:212 +0x19a
+filestore-server/service/upload/proto.init.0()
+	/home/blover/Golang/project/filestore-server-charter10/service/upload/proto/upload.pb.go:168 +0x17
+panic: proto: file "upload.proto" has a name conflict over RespEntry
+	previously from: "filestore-server/service/download/proto"
+	currently from:  "filestore-server/service/upload/proto"
+See https://protobuf.dev/reference/go/faq#namespace-conflict
+
+
+goroutine 1 [running]:
+google.golang.org/protobuf/reflect/protoregistry.glob..func1({0x1034cc0?, 0xc000724bb0?}, {0x1034cc0?, 0xc000724bf0})
+	/home/blover/go/pkg/mod/google.golang.org/protobuf@v1.30.0/reflect/protoregistry/registry.go:56 +0x1ee
+google.golang.org/protobuf/reflect/protoregistry.(*Files).RegisterFile.func1({0x1042a00, 0xc00075a270})
+	/home/blover/go/pkg/mod/google.golang.org/protobuf@v1.30.0/reflect/protoregistry/registry.go:154 +0x279
+google.golang.org/protobuf/reflect/protoregistry.rangeTopLevelDescriptors({0x1045d28, 0xc0000c9180}, 0xc00051d620)
+	/home/blover/go/pkg/mod/google.golang.org/protobuf@v1.30.0/reflect/protoregistry/registry.go:417 +0x171
+google.golang.org/protobuf/reflect/protoregistry.(*Files).RegisterFile(0xc0001a8138, {0x1045d28?, 0xc0000c9180?})
+	/home/blover/go/pkg/mod/google.golang.org/protobuf@v1.30.0/reflect/protoregistry/registry.go:149 +0x739
+google.golang.org/protobuf/internal/filedesc.Builder.Build({{0xd2cfa6, 0x25}, {0x15f0860, 0xb9, 0xb9}, 0x0, 0x2, 0x0, 0x1, {0x1038380, ...}, ...})
+	/home/blover/go/pkg/mod/google.golang.org/protobuf@v1.30.0/internal/filedesc/build.go:112 +0x1d6
+google.golang.org/protobuf/internal/filetype.Builder.Build({{{0xd2cfa6, 0x25}, {0x15f0860, 0xb9, 0xb9}, 0x0, 0x2, 0x0, 0x1, {0x0, ...}, ...}, ...})
+	/home/blover/go/pkg/mod/google.golang.org/protobuf@v1.30.0/internal/filetype/build.go:138 +0x1b8
+filestore-server/service/upload/proto.file_upload_proto_init()
+	/home/blover/Golang/project/filestore-server-charter10/service/upload/proto/upload.pb.go:212 +0x19a
+filestore-server/service/upload/proto.init.0()
+	/home/blover/Golang/project/filestore-server-charter10/service/upload/proto/upload.pb.go:168 +0x17
+panic: proto: file "upload.proto" has a name conflict over RespEntry
+	previously from: "filestore-server/service/download/proto"
+	currently from:  "filestore-server/service/upload/proto"
+See https://protobuf.dev/reference/go/faq#namespace-conflict
+
+
+goroutine 1 [running]:
+google.golang.org/protobuf/reflect/protoregistry.glob..func1({0x1034d80?, 0xc00029d250?}, {0x1034d80?, 0xc00029d290})
+	/home/blover/go/pkg/mod/google.golang.org/protobuf@v1.30.0/reflect/protoregistry/registry.go:56 +0x1ee
+google.golang.org/protobuf/reflect/protoregistry.(*Files).RegisterFile.func1({0x1042ac0, 0xc000230750})
+	/home/blover/go/pkg/mod/google.golang.org/protobuf@v1.30.0/reflect/protoregistry/registry.go:154 +0x279
+google.golang.org/protobuf/reflect/protoregistry.rangeTopLevelDescriptors({0x1045de8, 0xc0001b36c0}, 0xc000133620)
+	/home/blover/go/pkg/mod/google.golang.org/protobuf@v1.30.0/reflect/protoregistry/registry.go:417 +0x171
+google.golang.org/protobuf/reflect/protoregistry.(*Files).RegisterFile(0xc000012150, {0x1045de8?, 0xc0001b36c0?})
+	/home/blover/go/pkg/mod/google.golang.org/protobuf@v1.30.0/reflect/protoregistry/registry.go:149 +0x739
+google.golang.org/protobuf/internal/filedesc.Builder.Build({{0xd2cffc, 0x25}, {0x15f09e0, 0xc0, 0xc0}, 0x0, 0x2, 0x0, 0x1, {0x1038440, ...}, ...})
+	/home/blover/go/pkg/mod/google.golang.org/protobuf@v1.30.0/internal/filedesc/build.go:112 +0x1d6
+google.golang.org/protobuf/internal/filetype.Builder.Build({{{0xd2cffc, 0x25}, {0x15f09e0, 0xc0, 0xc0}, 0x0, 0x2, 0x0, 0x1, {0x0, ...}, ...}, ...})
+	/home/blover/go/pkg/mod/google.golang.org/protobuf@v1.30.0/internal/filetype/build.go:138 +0x1b8
+filestore-server/service/upload/proto.file_upload_proto_init()
+	/home/blover/Golang/project/filestore-server-charter10/service/upload/proto/upload.pb.go:212 +0x19a
+filestore-server/service/upload/proto.init.0()
+	/home/blover/Golang/project/filestore-server-charter10/service/upload/proto/upload.pb.go:168 +0x17
+panic: proto: file "upload.proto" has a name conflict over RespEntry
+	previously from: "filestore-server/service/download/proto"
+	currently from:  "filestore-server/service/upload/proto"
+See https://protobuf.dev/reference/go/faq#namespace-conflict
+
+
+goroutine 1 [running]:
+google.golang.org/protobuf/reflect/protoregistry.glob..func1({0x1034d80?, 0xc000289a40?}, {0x1034d80?, 0xc000289a80})
+	/home/blover/go/pkg/mod/google.golang.org/protobuf@v1.30.0/reflect/protoregistry/registry.go:56 +0x1ee
+google.golang.org/protobuf/reflect/protoregistry.(*Files).RegisterFile.func1({0x1042ac0, 0xc0001b0750})
+	/home/blover/go/pkg/mod/google.golang.org/protobuf@v1.30.0/reflect/protoregistry/registry.go:154 +0x279
+google.golang.org/protobuf/reflect/protoregistry.rangeTopLevelDescriptors({0x1045de8, 0xc0001336c0}, 0xc000327620)
+	/home/blover/go/pkg/mod/google.golang.org/protobuf@v1.30.0/reflect/protoregistry/registry.go:417 +0x171
+google.golang.org/protobuf/reflect/protoregistry.(*Files).RegisterFile(0xc000012150, {0x1045de8?, 0xc0001336c0?})
+	/home/blover/go/pkg/mod/google.golang.org/protobuf@v1.30.0/reflect/protoregistry/registry.go:149 +0x739
+google.golang.org/protobuf/internal/filedesc.Builder.Build({{0xd2cffc, 0x25}, {0x15f09e0, 0xc0, 0xc0}, 0x0, 0x2, 0x0, 0x1, {0x1038440, ...}, ...})
+	/home/blover/go/pkg/mod/google.golang.org/protobuf@v1.30.0/internal/filedesc/build.go:112 +0x1d6
+google.golang.org/protobuf/internal/filetype.Builder.Build({{{0xd2cffc, 0x25}, {0x15f09e0, 0xc0, 0xc0}, 0x0, 0x2, 0x0, 0x1, {0x0, ...}, ...}, ...})
+	/home/blover/go/pkg/mod/google.golang.org/protobuf@v1.30.0/internal/filetype/build.go:138 +0x1b8
+filestore-server/service/upload/proto.file_upload_proto_init()
+	/home/blover/Golang/project/filestore-server-charter10/service/upload/proto/upload.pb.go:212 +0x19a
+filestore-server/service/upload/proto.init.0()
+	/home/blover/Golang/project/filestore-server-charter10/service/upload/proto/upload.pb.go:168 +0x17
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] GET    /user/signup              --> filestore-server/service/apigw/handler.SignupHandler (3 handlers)
+[GIN-debug] POST   /user/signup              --> filestore-server/service/apigw/handler.DoSignupHandler (3 handlers)
+[GIN-debug] GET    /user/signin              --> filestore-server/service/apigw/handler.SigninHandler (3 handlers)
+[GIN-debug] POST   /user/signin              --> filestore-server/service/apigw/handler.DoSigninHandler (3 handlers)
+[GIN-debug] POST   /user/info                --> filestore-server/service/apigw/handler.UserInfoHandler (3 handlers)
+[GIN-debug] POST   /file/query               --> filestore-server/service/apigw/handler.FileQueryHandler (3 handlers)
+[GIN-debug] POST   /file/update              --> filestore-server/service/apigw/handler.FileMetaUpdateHandler (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN] 2023/09/20 - 00:28:35 | 404 |         870ns |             ::1 | GET      "/"
+[GIN] 2023/09/20 - 00:28:35 | 404 |         574ns |             ::1 | GET      "/favicon.ico"
+[GIN] 2023/09/20 - 00:28:49 | 404 |         567ns |             ::1 | GET      "/"
+[GIN] 2023/09/20 - 00:29:40 | 302 |      66.986µs |             ::1 | GET      "/user/signup"
+[GIN] 2023/09/20 - 00:29:40 | 200 |    3.081707ms |             ::1 | GET      "/static/view/signup.html"
+[GIN] 2023/09/20 - 00:29:51 | 200 |      97.884µs |             ::1 | GET      "/static/view/signin.html"
+[GIN] 2023/09/20 - 00:29:56 | 200 |   41.811686ms |             ::1 | POST     "/user/signin"
+[GIN] 2023/09/20 - 00:29:59 | 200 |    2.916442ms |             ::1 | POST     "/user/signin"
+[GIN] 2023/09/20 - 00:30:00 | 200 |    2.767171ms |             ::1 | POST     "/user/signin"
+[GIN] 2023/09/20 - 00:30:00 | 200 |    3.236388ms |             ::1 | POST     "/user/signin"
+[GIN] 2023/09/20 - 00:30:00 | 200 |    3.484953ms |             ::1 | POST     "/user/signin"
+[GIN] 2023/09/20 - 00:30:02 | 200 |    3.074798ms |             ::1 | POST     "/user/signin"
+[GIN] 2023/09/20 - 00:30:03 | 200 |    2.536664ms |             ::1 | POST     "/user/signin"
+[GIN] 2023/09/20 - 00:30:27 | 200 |    3.529891ms |             ::1 | POST     "/user/signin"
+[GIN] 2023/09/20 - 00:30:29 | 200 |    2.740653ms |             ::1 | POST     "/user/signin"
+[GIN] 2023/09/20 - 00:31:15 | 200 |    6.545934ms |             ::1 | POST     "/user/signin"
+[GIN] 2023/09/20 - 00:31:43 | 200 |    3.880523ms |             ::1 | POST     "/user/signin"
+[GIN] 2023/09/20 - 00:32:02 | 200 |   24.498741ms |             ::1 | POST     "/user/signup"
+[GIN] 2023/09/20 - 00:32:03 | 302 |      22.362µs |             ::1 | GET      "/user/signin"
+2023/09/20 00:32:09 
+2023/09/20 00:32:09 
+[GIN] 2023/09/20 - 00:32:09 | 200 |   26.085161ms |             ::1 | POST     "/user/signin"
+[GIN] 2023/09/20 - 00:32:10 | 200 |      243.43µs |             ::1 | GET      "/static/view/home.html"
+[GIN] 2023/09/20 - 00:32:10 | 200 |      215.56µs |             ::1 | GET      "/static/js/auth.js"
+[GIN] 2023/09/20 - 00:32:10 | 200 |    1.637267ms |             ::1 | GET      "/static/img/avatar.jpeg"
+[GIN] 2023/09/20 - 00:32:11 | 200 |    3.738678ms |             ::1 | POST     "/user/info?username=ice&token=069f2b36e7bf546d96b5e413ec2a56556509cd09"
+[GIN] 2023/09/20 - 00:32:11 | 200 |    9.628589ms |             ::1 | POST     "/file/query?username=ice&token=069f2b36e7bf546d96b5e413ec2a56556509cd09"
+[GIN] 2023/09/20 - 00:32:59 | 304 |      85.299µs |             ::1 | GET      "/static/view/home.html"
+[GIN] 2023/09/20 - 00:32:59 | 200 |   35.578834ms |             ::1 | POST     "/user/info?username=ice&token=069f2b36e7bf546d96b5e413ec2a56556509cd09"
+[GIN] 2023/09/20 - 00:32:59 | 200 |   13.178747ms |             ::1 | POST     "/file/query?username=ice&token=069f2b36e7bf546d96b5e413ec2a56556509cd09"
+[GIN] 2023/09/20 - 00:37:45 | 200 |     212.295µs |             ::1 | GET      "/static/view/upload.html"
+[GIN] 2023/09/20 - 00:37:45 | 200 |    2.623167ms |             ::1 | GET      "/static/css/bootstrap.min.css"
+[GIN] 2023/09/20 - 00:37:45 | 200 |     573.278µs |             ::1 | GET      "/static/css/fileinput.min.css"
+[GIN] 2023/09/20 - 00:37:45 | 200 |     530.504µs |             ::1 | GET      "/static/js/sortable.min.js"
+[GIN] 2023/09/20 - 00:37:45 | 200 |    3.537743ms |             ::1 | GET      "/static/js/jquery-3.2.1.min.js"
+[GIN] 2023/09/20 - 00:37:45 | 200 |    1.799615ms |             ::1 | GET      "/static/js/piexif.min.js"
+[GIN] 2023/09/20 - 00:37:45 | 200 |     257.249µs |             ::1 | GET      "/static/js/popper.min.js"
+[GIN] 2023/09/20 - 00:37:45 | 200 |     935.161µs |             ::1 | GET      "/static/js/purify.min.js"
+[GIN] 2023/09/20 - 00:37:45 | 200 |    1.698701ms |             ::1 | GET      "/static/js/bootstrap.min.js"
+[GIN] 2023/09/20 - 00:37:45 | 200 |    1.098192ms |             ::1 | GET      "/static/js/theme.js"
+[GIN] 2023/09/20 - 00:37:45 | 200 |    1.764299ms |             ::1 | GET      "/static/js/fileinput.min.js"
+[GIN] 2023/09/20 - 00:37:45 | 404 |     213.786µs |             ::1 | GET      "/static/css/bootstrap.min.css.map"
+[GIN] 2023/09/20 - 00:37:45 | 404 |     126.645µs |             ::1 | GET      "/static/js/popper.min.js.map"
+[GIN] 2023/09/20 - 00:38:04 | 404 |      26.283µs |             ::1 | GET      "/static/css/bootstrap.min.css.map"
+[GIN] 2023/09/20 - 00:38:06 | 404 |      23.146µs |             ::1 | GET      "/static/js/popper.min.js.map"
+[GIN] 2023/09/20 - 00:38:06 | 404 |      26.361µs |             ::1 | GET      "/static/css/bootstrap.min.css.map"
